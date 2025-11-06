@@ -5,3 +5,9 @@ class TaskInput(BaseModel):
 
 class TaskOutput(BaseModel):
     output: str
+
+class ForecastInput(BaseModel):
+    query: str
+
+class QueryInput(BaseModel):
+    query: str
